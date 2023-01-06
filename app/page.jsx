@@ -1,91 +1,57 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.jsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      
+      <main>
+        <div className="flex flex-col md:flex-row p-12 my-16">
+          <div className="flex-auto md:w-32">
+            <h2 className="text-2xl font-semibold mb-3">Merhaba,Ben Mehmet</h2>
+            <p className="text-gray-600 text-lg mb-4">Yazılım ile uğraşmayı seviyorum.</p>
+            <p className="text-gray-600 text-lg leading-12">
+              Şu anda bildiklerimi paylaşmak ve pekiştirmek için youtube için
+              içerik üretiyorum.En temel düzeyden ileri düzeye anlattığım konulara göz atabilirsiniz.
+            </p>
+            <p className="font-bold text-2xl my-6">Çalıştığım Yazılımlar</p>
+            <div className="flex flex-wrap">
+              <span className=" text-amber-600 bg-amber-200 skills">
+                HTML
+              </span>
+              <span className="text-pink-600 bg-pink-200 skills">
+                CSS
+              </span>
+              <span className="text-green-600 bg-green-200 skills">
+                Javascript
+              </span>
+              <span className="text-blue-600 bg-blue-200 skills">
+                React
+              </span>
+              <span className="text-indigo-600 bg-indigo-200 skills">
+                Bootstrap
+              </span>
+              <span className="text-sky-600 bg-sky-200 skills">
+                Tailwind
+              </span>
+              <span className="text-lime-600 bg-lime-200 skills">
+                Firebase
+              </span>
+              <span className="text-slate-600 bg-slate-200 skills">
+                PHP
+              </span>
+              <span className="text-purple-600 bg-purple-200 skills">
+                C#
+              </span>
+              <span className="text-orange-600 bg-orange-200 skills">
+                MYSQL
+              </span>
+            </div>
+          </div>
+          <div className="flex-auto mt-12  md:w-32 md:mt-0">
+            <Image src="/deneme.jpg" width={500} height={500} alt="Mehmet Elbeyli Blog" className="rounded-md md:ml-4" />
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      </main>
+    </div>
+  );
 }
