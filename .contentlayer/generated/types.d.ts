@@ -21,6 +21,8 @@ export type Post = {
   date: IsoDateTimeString
   /** Meta Etiketleri */
   keywords: string
+  /** Meta Etiketleri */
+  description: string
   /** Markdown file body */
   body: Markdown
   url: string

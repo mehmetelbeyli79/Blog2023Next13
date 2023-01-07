@@ -17,11 +17,11 @@ function Footer() {
             <title>point-right</title>
             <path d="M13 30h5c1.654 0 3-1.346 3-3 0-0.535-0.14-1.037-0.387-1.472 0.833-0.534 1.387-1.467 1.387-2.528 0-0.768-0.29-1.469-0.766-2 0.476-0.531 0.766-1.232 0.766-2 0-0.35-0.060-0.687-0.171-1h7.171c1.654 0 3-1.346 3-3s-1.346-3-3-3h-12.334l2.932-5.501c0.262-0.454 0.401-0.973 0.401-1.499 0-1.654-1.346-3-3-3-0.824 0-1.592 0.327-2.163 0.922-0.007 0.008-0.015 0.015-0.022 0.023l-6.815 7.474v-1.419c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v20c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-1.382l4.553 2.276c0.139 0.069 0.292 0.106 0.447 0.106zM5 28c-0.552 0-1-0.448-1-1s0.448-1 1-1 1 0.448 1 1-0.448 1-1 1zM13.236 28l-5.236-2.618v-11.995l8.287-9.088c0.19-0.193 0.443-0.299 0.713-0.299 0.551 0 1 0.449 1 1 0 0.171-0.041 0.332-0.122 0.479-0.010 0.017-0.020 0.033-0.029 0.051l-3.732 7c-0.165 0.31-0.156 0.684 0.025 0.985s0.506 0.485 0.857 0.485h14c0.551 0 1 0.449 1 1s-0.449 1-1 1h-10c-0.552 0-1 0.448-1 1s0.448 1 1 1c0.551 0 1 0.449 1 1s-0.449 1-1 1c-0.552 0-1 0.448-1 1s0.448 1 1 1c0.551 0 1 0.449 1 1s-0.449 1-1 1h-1c-0.552 0-1 0.448-1 1s0.448 1 1 1c0.551 0 1 0.449 1 1s-0.449 1-1 1h-4.764z"></path>
           </svg>
-          <Link href="#" className="underline underline-offset-2">Github</Link>
+          <Link href="https://github.com/mehmetelbeyli79/Blog2023Next13" target="_blank" className="underline underline-offset-2">Github</Link>
         </p>
 
         <div className="flex -mx-2">
-          <Link href="#" className="social" aria-label="Github">
+          <Link href="https://github.com/mehmetelbeyli79" className="social" aria-label="Github" target="_blank">
             <svg
               className="w-5 h-5 fill-current"
               viewBox="0 0 32 32"
@@ -31,7 +31,7 @@ function Footer() {
             </svg>
           </Link>
 
-          <Link href="#" className="social" aria-label="Twitter">
+          <Link href="https://twitter.com/BilisimSosyal" className="social" aria-label="Twitter" target="_blank">
             <svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Footer() {
             </svg>
           </Link>
 
-          <Link href="#" className="social" aria-label="Facebook">
+          <Link href="https://www.facebook.com/sosyalbilisim79/" className="social" aria-label="Facebook" target="_blank">
             <svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ function Footer() {
               <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z"></path>
             </svg>
           </Link>
-          <Link href="#" className="social" aria-label="LinkedIn">
+          <Link href="https://www.linkedin.com/in/mehmet-elbeyli-7728b27a/" className="social" aria-label="LinkedIn" target="_blank">
             <svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ function Footer() {
               <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 26h-4v-14h4v14zM10 10c-1.106 0-2-0.894-2-2s0.894-2 2-2c1.106 0 2 0.894 2 2s-0.894 2-2 2zM26 26h-4v-8c0-1.106-0.894-2-2-2s-2 0.894-2 2v8h-4v-14h4v2.481c0.825-1.131 2.087-2.481 3.5-2.481 2.488 0 4.5 2.238 4.5 5v9z"></path>
             </svg>
           </Link>
-          <Link href="#" className="social" aria-label="LinkedIn">
+          <Link href="#" className="social" aria-label="LinkedIn" target="_blank">
             <svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"

@@ -23,7 +23,13 @@ export const Post = defineDocumentType(() => ({
       type:'string',
       description:'Meta Etiketleri',
       required:true
+    },
+    description:{
+      type:'string',
+      description:'Meta Etiketleri',
+      required:true
     }
+
   },
   computedFields: {
     url: {

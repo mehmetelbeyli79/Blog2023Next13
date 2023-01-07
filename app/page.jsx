@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       
       <main>
-        <div className="flex flex-col md:flex-row p-12 my-16">
+        <div className="flex flex-col md:flex-row p-12 my-0 md:my-16">
           <div className="flex-auto md:w-32">
             <h2 className="text-2xl font-semibold mb-3">Merhaba,Ben Mehmet</h2>
             <p className="text-gray-600 text-lg mb-4">Yazılım ile uğraşmayı seviyorum.</p>
@@ -48,7 +48,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-auto mt-12  md:w-32 md:mt-0">
-            <Image src="/deneme.jpg" width={500} height={500} alt="Mehmet Elbeyli Blog" className="rounded-md md:ml-4" />
+            <Image src="/mehmetelbeyli.png" width={400} height={350} alt="Mehmet Elbeyli Blog" className="rounded-md md:ml-4" />
           </div>
         </div>
       </main>
