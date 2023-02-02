@@ -19,8 +19,8 @@ export default async function Egitimler() {
   const { YOUTUBE_API_KEY, YOUTUBE_CHANNEL_ID } = process.env;
   const statisticsURL = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${YOUTUBE_CHANNEL_ID}&key=${YOUTUBE_API_KEY}`;
   const videosURL=`https://youtube.googleapis.com/youtube/v3/search?part=id%2Csnippet&channelId=${YOUTUBE_CHANNEL_ID}&type=video&maxResults=10&order=date&key=${YOUTUBE_API_KEY}`
-  const data = await fetchData(statisticsURL,{cache:"no-store"});
-  const videos=await fetchData(videosURL,{cache:"no-store"});
+  const data = await fetchData(statisticsURL,{ next: { revalidate: 60 } });
+  const videos=await fetchData(videosURL,{ next: { revalidate: 60 } });
   return {
     data,
     videos
