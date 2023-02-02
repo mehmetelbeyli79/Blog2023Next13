@@ -50,6 +50,7 @@ async function getData() {
         headers: {
           Authorization: `Bearer ${process.env.RAINDROP_ACCESS_TOKEN}`,
         },
+        next: { revalidate: 60 },
       }
     );
     const data =
