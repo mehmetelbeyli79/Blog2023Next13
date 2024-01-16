@@ -1,6 +1,6 @@
 ---
 title: Next js İle Portfolio Oluşturma Sürecim
-date: 2023-01-07
+date: 2024-01-15
 subtitle: Çekilen Sancılar :)
 keywords: html,css,javascript,react,next,contentlayer,raindrop
 description: Next js ile blog sitesi yapımı
